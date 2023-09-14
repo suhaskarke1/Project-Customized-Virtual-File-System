@@ -681,7 +681,7 @@ int main()
 		
 		if(count == 1)
 		{
-			if(stricmp(command[0],"ls")==0)
+			if(strcmp(command[0],"ls")==0)
 			{
 				ls_file();
 				continue;
